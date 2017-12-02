@@ -1,0 +1,159 @@
+<!--<h1 mat-dialog-title>Hi {{data.name}}</h1>
+<div mat-dialog-content>
+  <p>What's your favorite animal?</p>
+  <mat-form-field>
+    <input matInput tabindex="1" [(ngModel)]="data.animal">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="data.animal" tabindex="2">Ok</button>
+  <button mat-button (click)="onNoClick()" tabindex="-1">No Thanks</button>
+</div>-->
+
+<!--<mat-card>Simple card</mat-card>-->
+
+
+<!--<chart-horizontal [tab]="Popup"> </chart-horizontal>-->
+
+
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet" style="display: inline-table;">
+
+    <div class="card-container1 manual-flip card-flip">
+      <div class="card1">
+        <div class="front">
+
+
+          <mdl-card mdl-shadow="4">
+            <mdl-card-supporting-text>
+              Example
+            </mdl-card-supporting-text>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--9-col">
+                <guage-chart [stype]="AAAA">Loading...</guage-chart>
+              </div>
+              <div class="mdl-cell mdl-cell--6-col">
+
+                <a class="text-success">
+                  <center><i class="material-icons">trending_up</i>TRENDING</center>
+                </a>
+                        
+                <canvas id="mChart" width="200" height="120"></canvas>
+              </div>
+            </div>
+            <!--<mdl-card-actions mdl-card-border>
+      <button mdl-button mdl-colored mdl-ripple>Get Started</button>
+    </mdl-card-actions>-->
+            <mdl-card-menu>
+              <span mdTooltip="Comments" mdTooltipPosition="above">    <button mdl-button mdl-button-type="icon" mdl-ripple onclick="rotateCard(this)">
+        <i class="material-icons">info_outline</i>
+      </button>
+            </span>
+            </mdl-card-menu>
+          </mdl-card>
+        </div>
+
+
+        <div class="back">
+          <mdl-card mdl-shadow="4">
+            <div class="header">
+              <p class="text-design">Comments
+                <center>
+                  <mdl-card-actions style="line-height: 9rem;">
+                    <a mat-mini-fab onclick="rotateCard(this)">
+                      <mat-icon>check</mat-icon>
+                    </a>
+                  </mdl-card-actions>
+                </center>
+              </p>
+            </div>
+
+            <mdl-card-menu>
+              <span mdTooltip="Edit" mdTooltipPosition="above">   <button mdl-button mdl-button-type="icon" mdl-ripple onclick="rotateCard(this)">
+                            <i class="material-icons md-18">create</i>
+                          </button>
+                       </span>
+            </mdl-card-menu>
+
+          </mdl-card>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet" style="display: inline-table;">
+
+    <div class="card-container1 manual-flip card-flip">
+      <div class="card1">
+        <div class="front">
+
+
+          <mdl-card mdl-shadow="4">
+            <mdl-card-supporting-text>
+              Example 2
+            </mdl-card-supporting-text>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--9-col">
+                <guage-chart [stype]="AAAA">Loading...</guage-chart>
+              </div>
+              <div class="mdl-cell mdl-cell--6-col">
+
+                <a class="text-success">
+                  <center><i class="material-icons">trending_up</i>TRENDING</center>
+                </a>
+                        
+                <canvas id="pChart" width="200" height="120"></canvas>
+              </div>
+            </div>
+            <!--<mdl-card-actions mdl-card-border>
+      <button mdl-button mdl-colored mdl-ripple>Get Started</button>
+    </mdl-card-actions>-->
+            <mdl-card-menu>
+              <span mdTooltip="Comments" mdTooltipPosition="above">    <button mdl-button mdl-button-type="icon" mdl-ripple onclick="rotateCard(this)">
+        <i class="material-icons">info_outline</i>
+      </button>
+            </span>
+            </mdl-card-menu>
+          </mdl-card>
+        </div>
+
+
+        <div class="back">
+          <mdl-card mdl-shadow="4">
+            <div class="header">
+              <p class="text-design">Comments
+                <center>
+                  <mdl-card-actions style="line-height: 9rem;">
+                    <a mat-mini-fab onclick="rotateCard(this)">
+                      <mat-icon>check</mat-icon>
+                    </a>
+                  </mdl-card-actions>
+                </center>
+              </p>
+            </div>
+
+            <mdl-card-menu>
+              <span mdTooltip="Edit" mdTooltipPosition="above">   <button mdl-button mdl-button-type="icon" mdl-ripple onclick="rotateCard(this)">
+                            <i class="material-icons md-18">create</i>
+                          </button>
+                       </span>
+            </mdl-card-menu>
+
+          </mdl-card>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+</div>
