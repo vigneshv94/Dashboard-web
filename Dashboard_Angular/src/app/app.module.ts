@@ -47,6 +47,9 @@ import {HomeComponent} from './home/home.component';
 import {RegisterComponent} from './register/register.component';
 import {MatTableModule} from '@angular/material/table';
 import { MemberComponent } from './member/member.component';
+import {MatMenuModule} from '@angular/material/menu';
+import { SettingsComponent } from './settings/settings.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -67,7 +70,8 @@ import { MemberComponent } from './member/member.component';
     HomeComponent,
     RegisterComponent,
     PopupModalComponent,
-    MemberComponent
+    MemberComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,
@@ -90,7 +94,9 @@ import { MemberComponent } from './member/member.component';
     MatCardModule,
     MatTooltipModule,
     MatDialogModule,
-    MatTableModule
+    MatTableModule,
+    MatMenuModule,
+    MatCheckboxModule
   ],
   providers: [
     AuthGuard,
