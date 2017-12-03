@@ -47,6 +47,7 @@ import {HomeComponent} from './home/home.component';
 import {RegisterComponent} from './register/register.component';
 import {MatTableModule} from '@angular/material/table';
 import { MemberComponent } from './member/member.component';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -90,7 +91,8 @@ import { MemberComponent } from './member/member.component';
     MatCardModule,
     MatTooltipModule,
     MatDialogModule,
-    MatTableModule
+    MatTableModule,
+    MatMenuModule
   ],
   providers: [
     AuthGuard,
